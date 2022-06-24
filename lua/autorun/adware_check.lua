@@ -18,11 +18,11 @@ http.Fetch = function(url,...)
         if !string_find(url,domain) then
 			if !table_value(foundViruses,url) then
 				if IsValid(Entity(1)) then
-					Entity(1):ChatPrint("Adware Detected! Check your console for details.")
+					Entity(1):ChatPrint("Potential Adware Detected! Check your console for details.")
 				end
 				table_insert(foundViruses,url)
 			end
-			print("ADWARE DETECTED! BLOCKING THE FOLLOWING URL: " .. url)
+			print("POTENTIAL ADWARE DETECTED! BLOCKING THE FOLLOWING URL: " .. url)
 			return
 		end
     end
