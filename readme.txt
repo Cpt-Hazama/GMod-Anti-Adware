@@ -1,4 +1,4 @@
-To install, please the 'Anti Adware' folder into '/GarrysMod/garrysmod/addons/'
+To install, put the 'Anti Adware' folder into '/GarrysMod/garrysmod/addons/'
 The folder structure should look like this if you installed it correctly
 
     GarrysMod/
